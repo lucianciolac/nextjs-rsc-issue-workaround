@@ -1,5 +1,7 @@
 # Workaround for Next.js Static Export RSC Bug
 
+- **Was fixed in [v16.2.0-canary.28](https://github.com/vercel/next.js/releases/v16.2.0-canary.28)**
+
 Workaround for a Next.js static export bug where React Server Component (RSC) payload files are written under nested directories but requested at flat, dot-separated paths at runtime.
 
 ## The Problem
